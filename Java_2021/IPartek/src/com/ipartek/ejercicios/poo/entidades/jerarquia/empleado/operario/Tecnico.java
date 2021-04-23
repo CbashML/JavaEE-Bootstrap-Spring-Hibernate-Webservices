@@ -1,6 +1,6 @@
-package com.ipartek.ejercicios.poo.pruebas.entidades.jerarquia.empleado.operario;
+package com.ipartek.ejercicios.poo.entidades.jerarquia.empleado.operario;
 
-import com.ipartek.ejercicios.poo.pruebas.entidades.jerarquia.empleado.Operario;
+import com.ipartek.ejercicios.poo.entidades.jerarquia.empleado.Operario;
 
 public class Tecnico extends Operario{
 

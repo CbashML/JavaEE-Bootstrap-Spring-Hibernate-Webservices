@@ -1,4 +1,4 @@
-package com.ipartek.ejercicios.poo.pruebas.entidades.jerarquia.empleado;
+package com.ipartek.ejercicios.poo.entidades.jerarquia.empleado;
 
 public class Empleado {
 	private String Nombre;

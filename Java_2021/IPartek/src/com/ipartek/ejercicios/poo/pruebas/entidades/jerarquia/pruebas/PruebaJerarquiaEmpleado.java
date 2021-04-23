@@ -1,10 +1,10 @@
 package com.ipartek.ejercicios.poo.pruebas.entidades.jerarquia.pruebas;
 
-import com.ipartek.ejercicios.poo.pruebas.entidades.jerarquia.empleado.Directivo;
-import com.ipartek.ejercicios.poo.pruebas.entidades.jerarquia.empleado.Empleado;
-import com.ipartek.ejercicios.poo.pruebas.entidades.jerarquia.empleado.Operario;
-import com.ipartek.ejercicios.poo.pruebas.entidades.jerarquia.empleado.operario.Oficial;
-import com.ipartek.ejercicios.poo.pruebas.entidades.jerarquia.empleado.operario.Tecnico;
+import com.ipartek.ejercicios.poo.entidades.jerarquia.empleado.Directivo;
+import com.ipartek.ejercicios.poo.entidades.jerarquia.empleado.Empleado;
+import com.ipartek.ejercicios.poo.entidades.jerarquia.empleado.Operario;
+import com.ipartek.ejercicios.poo.entidades.jerarquia.empleado.operario.Oficial;
+import com.ipartek.ejercicios.poo.entidades.jerarquia.empleado.operario.Tecnico;
 
 public class PruebaJerarquiaEmpleado {
 
