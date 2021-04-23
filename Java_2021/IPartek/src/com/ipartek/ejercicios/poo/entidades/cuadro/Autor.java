@@ -1,4 +1,4 @@
-package com.ipartek.ejercicios.poo.entidades;
+package com.ipartek.ejercicios.poo.entidades.cuadro;
 
 import java.time.LocalDate;
 
