@@ -48,11 +48,20 @@ public class Libro {
 	
 	public boolean prestamo() {
 		boolean prestamoCorrecto = false;
-		if(getEjemplares() > 0) {
+		if(getPrestados() < getEjemplares()) {
 			setPrestados(getPrestados() + 1);
-			setEjemplares(getEjemplares() - 1);
 			
 		}
 		return prestamoCorrecto;
 	}
+	
+	public boolean devolucion() {
+		boolean devolucionCorrecta = false;
+		if (getPrestados() > 0) {
+			devolucionCorrecta = true;
+			setPrestados(getPrestados() - 1);
+		}
+		return devolucionCorrecta;
+	}
+	
 }
