@@ -1,15 +1,17 @@
 package com.sebastian.ejercicios.poo.entidades.cuadro;
 
-import com.sebastian.ejercicios.poo.entidades.Fecha;
+import java.time.LocalDate;
+
+//import com.sebastian.ejercicios.poo.entidades.Fecha;
 
 public class Autor {
 
 	private String nombre;
 	private String apellidos;
 	private boolean fallecido;
-	private Fecha anhoDeNacimiento;
+	private LocalDate anhoDeNacimiento;
 	
-	public Autor(String nombre, String apellidos, boolean fallecido, Fecha anhoDeNacimiento) {
+	public Autor(String nombre, String apellidos, boolean fallecido, LocalDate anhoDeNacimiento) {
 		setNombre(nombre);
 		setApellidos(apellidos);
 		setFallecido(fallecido);
@@ -33,10 +35,10 @@ public class Autor {
 	public void setFallecido(boolean fallecido) {
 		this.fallecido = fallecido;
 	}
-	public Fecha getAnhoDeNacimiento() {
+	public LocalDate getAnhoDeNacimiento() {
 		return anhoDeNacimiento;
 	}
-	public void setAnhoDeNacimiento(Fecha anhoDeNacimiento) {
+	public void setAnhoDeNacimiento(LocalDate anhoDeNacimiento) {
 		this.anhoDeNacimiento = anhoDeNacimiento;
 	}
 	

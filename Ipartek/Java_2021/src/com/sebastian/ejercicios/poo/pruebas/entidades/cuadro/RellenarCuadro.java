@@ -1,8 +1,8 @@
 package com.sebastian.ejercicios.poo.pruebas.entidades.cuadro;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
-import com.sebastian.ejercicios.poo.entidades.Fecha;
 import com.sebastian.ejercicios.poo.entidades.cuadro.Autor;
 import com.sebastian.ejercicios.poo.entidades.cuadro.Cuadro;
 import com.sebastian.ejercicios.poo.entidades.cuadro.TamanhoLienzo;
@@ -12,7 +12,7 @@ public class RellenarCuadro {
 	public Cuadro run(Scanner scanner) {
 		Cuadro cuadro; 
 		Autor autor;
-		Fecha fechaDeNacimiento;
+		LocalDate fechaDeNacimiento;
 		TamanhoLienzo tamanhoLienzo;
 		System.out.println("Running...");
 		System.out.println("Introduzca el titulo:");
@@ -53,7 +53,7 @@ public class RellenarCuadro {
 		double precio = scanner.nextDouble();
 		scanner.nextLine();
 		
-		fechaDeNacimiento = new Fecha(diaDeNacimiento, mesDeNacimiento, anhoDeNacimiento);
+		fechaDeNacimiento = LocalDate.of(anhoDeNacimiento, mesDeNacimiento, diaDeNacimiento);
 		autor = new Autor(nombre, apellidos, fallecido, fechaDeNacimiento);
 		tamanhoLienzo = new TamanhoLienzo(altura, anchura);
 		cuadro = new Cuadro(titulo, autor, tamanhoLienzo, anho, restaurado, precio);
