@@ -56,4 +56,10 @@ public class Cuadro {
 		this.precio = precio;
 	}
 
+	@Override
+	public String toString() {
+		return "Cuadro [titulo=" + titulo + ", autor=" + autor.toString() + ", tamanhoLienzo=" + tamanhoLienzo.toString() + ", anho=" + anho
+				+ ", restaurado=" + restaurado + ", precio=" + precio + "]";
+	}
+	
 }

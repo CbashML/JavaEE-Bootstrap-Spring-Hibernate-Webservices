@@ -1,15 +1,15 @@
 package com.ipartek.ejercicios.poo.entidades.cuadro;
 
-import java.time.LocalDate;
+import com.ipartek.ejercicios.poo.entidades.Fecha;
 
 public class Autor {
 
 	private String nombre;
 	private String apellidos;
 	private boolean fallecido;
-	private LocalDate anhoDeNacimiento;
+	private Fecha anhoDeNacimiento;
 	
-	public Autor(String nombre, String apellidos, boolean fallecido, LocalDate anhoDeNacimiento) {
+	public Autor(String nombre, String apellidos, boolean fallecido, Fecha anhoDeNacimiento) {
 		setNombre(nombre);
 		setApellidos(apellidos);
 		setFallecido(fallecido);
@@ -33,11 +33,17 @@ public class Autor {
 	public void setFallecido(boolean fallecido) {
 		this.fallecido = fallecido;
 	}
-	public LocalDate getAnhoDeNacimiento() {
+	public Fecha getAnhoDeNacimiento() {
 		return anhoDeNacimiento;
 	}
-	public void setAnhoDeNacimiento(LocalDate anhoDeNacimiento) {
+	public void setAnhoDeNacimiento(Fecha anhoDeNacimiento) {
 		this.anhoDeNacimiento = anhoDeNacimiento;
+	}
+	
+	@Override
+	public String toString() {
+		return "Autor [nombre=" + nombre + ", apellidos=" + apellidos + ", fallecido=" + fallecido
+				+ ", anhoDeNacimiento=" + anhoDeNacimiento + "]";
 	}
 	
 }

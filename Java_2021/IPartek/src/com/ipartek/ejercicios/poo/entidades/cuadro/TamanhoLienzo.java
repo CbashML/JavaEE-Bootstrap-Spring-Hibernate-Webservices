@@ -22,4 +22,10 @@ public class TamanhoLienzo {
 	public void setAnchura(float anchura) {
 		this.anchura = anchura;
 	}
+
+	@Override
+	public String toString() {
+		return "TamanhoLienzo [altura=" + altura + ", anchura=" + anchura + "]";
+	}
+	
 }
