@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Cbash/git/JavaEE-Bootstrap-Spring-Hibernate-Webservices/Ipartek/Java_Sbs/libs/Consola.jar"/>
+	<classpathentry kind="lib" path="libs/Consola.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
