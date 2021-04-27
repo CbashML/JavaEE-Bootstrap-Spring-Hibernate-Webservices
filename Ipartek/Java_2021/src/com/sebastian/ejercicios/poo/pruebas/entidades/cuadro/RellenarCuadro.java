@@ -3,6 +3,7 @@ package com.sebastian.ejercicios.poo.pruebas.entidades.cuadro;
 import java.time.LocalDate;
 import java.util.Scanner;
 
+import static com.ipartek.formacion.bibliotecas.Consola.*;
 import com.sebastian.ejercicios.poo.entidades.cuadro.Autor;
 import com.sebastian.ejercicios.poo.entidades.cuadro.Cuadro;
 import com.sebastian.ejercicios.poo.entidades.cuadro.TamanhoLienzo;
@@ -24,8 +25,7 @@ public class RellenarCuadro {
 		System.out.println("Introduzca el apellido del autor:");
 		String apellidos = scanner.nextLine();
 		
-		System.out.println("Introduzca si el autor ha fallecido:");
-		boolean fallecido = scanner.nextBoolean();
+		boolean fallecido = leerBoolean("Introduzca si el autor ha fallecido:");
 		
 		System.out.println("Introduzca la fecha de nacimiento:");
 		System.out.println("Año yyyy:");
@@ -46,8 +46,7 @@ public class RellenarCuadro {
 		System.out.println("Introduzca el año");
 		int anho = scanner.nextInt();
 		
-		System.out.println("Introduzca si el cuadro ha sido restaurado:");
-		boolean restaurado = scanner.nextBoolean();
+		boolean restaurado = leerBoolean("Introduzca si el cuadro ha sido restaurado:");
 		
 		System.out.println("Introduzca el precio:");
 		double precio = scanner.nextDouble();
