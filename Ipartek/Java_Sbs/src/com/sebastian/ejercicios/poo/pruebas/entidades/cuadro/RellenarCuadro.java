@@ -28,11 +28,11 @@ public class RellenarCuadro {
 		boolean fallecido = leerBoolean("Introduzca si el autor ha fallecido:");
 		
 		System.out.println("Introduzca la fecha de nacimiento:");
-		System.out.println("AÃ±o yyyy:");
+		System.out.println("Año yyyy:");
 		int anhoDeNacimiento = scanner.nextInt();
 		System.out.println("Mes mm:");
 		int mesDeNacimiento = scanner.nextInt();
-		System.out.println("DÃ­a dd:");
+		System.out.println("Día dd:");
 		int diaDeNacimiento = scanner.nextInt();
 		
 		System.out.println("Introduzca la altura del lienzo:");
