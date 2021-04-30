@@ -1,6 +1,8 @@
-package com.sebastian.ejercicios.poo.herencia.ave;
+package com.sebastian.ejercicios.poo.herencia.aves.pajaros;
 
 import static com.ipartek.formacion.bibliotecas.Consola.*;
+
+import com.sebastian.ejercicios.poo.herencia.aves.Ave;
 
 public class Canario extends Ave {
 	private float tamanho;

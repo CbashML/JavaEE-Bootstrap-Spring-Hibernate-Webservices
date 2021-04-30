@@ -1,6 +1,8 @@
-package com.sebastian.ejercicios.poo.herencia.ave;
+package com.sebastian.ejercicios.poo.herencia.aves.tropicales;
 
 import static com.ipartek.formacion.bibliotecas.Consola.*;
+
+import com.sebastian.ejercicios.poo.herencia.aves.Ave;
 
 public class Loro extends Ave {
 
@@ -65,6 +67,11 @@ public class Loro extends Ave {
 			pl("Oeste");
 			break;
 		}
+	}
+	
+	@Override
+	public void cantar() {
+		System.out.println("Piiio-piiio loro bonito");
 	}
 	
 }

@@ -1,10 +1,11 @@
-package com.sebastian.ejercicios.poo.herencia.ave;
+package com.sebastian.ejercicios.poo.herencia.aves;
 
 import static com.ipartek.formacion.bibliotecas.Consola.*;
 
-public class Ave {
+public abstract class Ave {
 	private char sexo;
 	private int edad;
+	private DatosPersonales nombresDeLaClase;
 	
 	private static int numeroDeAvesCreadas;
 	
@@ -29,6 +30,14 @@ public class Ave {
 
 	public void setEdad(int edad) {
 		this.edad = edad;
+	}
+
+	public DatosPersonales getNombresDeLaClase() {
+		return nombresDeLaClase;
+	}
+
+	public void setNombresDeLaClase(DatosPersonales nombresDeLaClase) {
+		this.nombresDeLaClase = nombresDeLaClase;
 	}
 
 	@Override
@@ -69,4 +78,6 @@ public class Ave {
 		pl(this.toString());
 	}
 
+	public void cantar() {};
+	
 }

@@ -1,4 +1,6 @@
-package com.sebastian.ejercicios.poo.herencia.ave;
+package com.sebastian.ejercicios.poo.herencia.estrellastv;
+
+import com.sebastian.ejercicios.poo.herencia.aves.pajaros.Canario;
 
 public class Piolin extends Canario {
 
@@ -45,16 +47,11 @@ public class Piolin extends Canario {
 				+ getNumeroDePeliculas() + "]";
 	}
 	
-	public static void main(String[] args) {
-		Piolin p = new Piolin('M', 4, 98);
-		Loro l = new Loro('H', 7, 'O');
-		
-		p.altura();
-		l.deDondeEres();
-		p.setTamanho(16);
-		p.altura();
-		l.setRegion('E');
-		p.getNumeroDeAvesCreadas();
+	@Override
+	public void cantar() {
+		System.out.println("Pio-pio soy un piolin");
 	}
+	
+
 
 }
