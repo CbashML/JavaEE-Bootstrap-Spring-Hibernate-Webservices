@@ -53,14 +53,14 @@ public class Searcher {
 		frame.getContentPane().setLayout(null);
 		
 		JLabel lblSearch = new JLabel("Search:");
-		lblSearch.setBounds(184, 67, 46, 14);
+		lblSearch.setBounds(194, 67, 46, 14);
 		frame.getContentPane().add(lblSearch);
 		
 		textFieldSearch = new JTextField();
 		textFieldSearch.setHorizontalAlignment(SwingConstants.CENTER);
 		textFieldSearch.setForeground(Color.LIGHT_GRAY);
 		textFieldSearch.setText("Query to process");
-		textFieldSearch.setBounds(73, 91, 276, 20);
+		textFieldSearch.setBounds(79, 91, 276, 20);
 		frame.getContentPane().add(textFieldSearch);
 		textFieldSearch.setColumns(10);
 		
@@ -68,7 +68,7 @@ public class Searcher {
 		comboBox.setToolTipText("");
 		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Duck Duck Go", "Youtube", "Stack Over Flow", "Google"}));
 		comboBox.setSelectedIndex(0);
-		comboBox.setBounds(153, 122, 117, 22);
+		comboBox.setBounds(159, 122, 117, 22);
 		frame.getContentPane().add(comboBox);
 		
 		JButton btnSearch = new JButton("Search");
@@ -78,7 +78,7 @@ public class Searcher {
 				System.out.println(comboBox.getAccessibleContext());
 			}
 		});
-		btnSearch.setBounds(166, 156, 89, 23);
+		btnSearch.setBounds(173, 156, 89, 23);
 		frame.getContentPane().add(btnSearch);
 		
 		
