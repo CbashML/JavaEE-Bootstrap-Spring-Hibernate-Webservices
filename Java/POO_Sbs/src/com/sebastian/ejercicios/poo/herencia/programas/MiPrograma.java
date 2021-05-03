@@ -29,6 +29,7 @@ public class MiPrograma {
 		
 		Loro l = new Loro('H', 7, 'O');
 		
+		
 		l.cantar();
 		
 		for (Piolin piolin : piolines) 
