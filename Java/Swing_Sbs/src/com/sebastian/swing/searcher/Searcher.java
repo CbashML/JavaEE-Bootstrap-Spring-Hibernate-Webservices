@@ -1,4 +1,4 @@
-package com.sebastian.swing;
+package com.sebastian.swing.searcher;
 
 import java.awt.EventQueue;
 
