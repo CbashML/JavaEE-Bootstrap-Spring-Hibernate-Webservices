@@ -1,4 +1,4 @@
-package com.sebastian.swing.e1;
+package com.sebastian.swing.laonce;
 
 import java.util.Random;
 
