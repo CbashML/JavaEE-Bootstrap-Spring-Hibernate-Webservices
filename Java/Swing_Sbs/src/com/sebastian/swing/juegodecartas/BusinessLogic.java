@@ -54,9 +54,6 @@ public class BusinessLogic {
 	
 	public static void main(String[] args) {
 		BusinessLogic bl = new BusinessLogic();
-		int num = bl.getRanomInteger(13) + 1;
-//		String type = bl.getTypeDeLaCarta();?
-//		System.out.println(num + " de " + type);
 		ArrayList<Carta> cartas = bl.getCartasOrdenadas();
 		ArrayList<Carta> cartasDesordenadas = bl.desordenarCartas(cartas);
 		bl.imprimirCartas(cartasDesordenadas);
