@@ -1,4 +1,4 @@
-package com.sebastian.swing.prueba4;
+package com.sebastian.swing.prueba3;
 
 import java.awt.EventQueue;
 import java.util.ArrayList;
