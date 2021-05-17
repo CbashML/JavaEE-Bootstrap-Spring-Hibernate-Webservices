@@ -1,0 +1,66 @@
+
+#page > header {
+    grid-area: head;
+}
+
+#page > main {
+    grid-area: main;
+}
+
+#page > footer {
+    grid-area: foot;
+}
+
+
+body {
+    display: grid ;
+    grid-template-areas: 
+    "head head head head head"
+    ". main main main ."
+    ". foot foot foot .";
+    grid-template-rows: 20% 1fr 30%;
+    grid-template-columns: 5% 30% 30% 30% 5%; 
+    justify-content: center;
+    align-content: space-between;
+}
+
+header {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+
+main {
+    width: 80%;
+    justify-self: center;
+}
+
+footer {
+    background-color: #f8f9fa;
+    display: inline;
+    width: 100%;
+    align-self: flex-end;
+    justify-content: center;
+    position: sticky;
+    z-index: 1;
+    bottom: 0;
+}
+
+
+.main-content{
+    justify-content: center;
+}
+
+.main-card {
+    margin-top: 0.5%;
+}
+
+/* Extras */
+body > nav ul {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
