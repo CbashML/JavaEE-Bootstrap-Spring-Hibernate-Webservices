@@ -1,0 +1,32 @@
+
+#page > header {
+    grid-area: head;
+}
+
+#page > main {
+    grid-area: main;
+}
+
+#page > footer {
+    grid-area: foot;
+}
+
+
+body {
+    display: grid;
+    grid-template-areas: 
+    "head head head head head"
+    ". main main main ."
+    ". foot foot foot .";
+    grid-template-rows: 10% 80% 10%;
+    grid-template-columns: 5% 30% 30% 30% 5%; 
+    justify-content: center;
+}
+
+.main-content{
+    justify-content: center;
+}
+
+.main-card {
+    margin-top: 2em;
+}
