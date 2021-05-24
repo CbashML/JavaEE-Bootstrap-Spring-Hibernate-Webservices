@@ -60,7 +60,18 @@ footer {
 }
 
 /* Extras */
-body > nav ul {
-    flex-direction: row;
-    justify-content: flex-start;
+
+nav ul {
+    border-top: 2px solid var(--color-tinta);
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
+
+  #nav-list li {
+    display: inline;
+  }
+
+ figure > img {
+     width: 50%;
+ }

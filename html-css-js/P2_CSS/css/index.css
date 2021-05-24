@@ -1,0 +1,58 @@
+
+body > nav {
+    background-color: #00AAFF;
+}
+
+body > nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+body > nav li {
+    display: inline;
+}
+
+body > nav a {
+    display: inline-block;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+p {
+    font-size: 12px;
+}
+
+table thead {
+    background-color: #0f40f0;
+}
+
+table tr:nth-child(even) {
+    background-color: #00AAFF;
+}
+
+h1 {
+    background-color: #0f40f0;
+    font-size: 25px;
+}
+
+a:visited {
+    color: #AA44FA;
+}
+
+a:hover {
+    color: #FF2244;
+}
+
+a {
+    font-weight: bold;
+}
+
+#multimedia img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,28 @@
+Send by German Martin Gomez:
+
+venga os pongo yo un ejercicio... 
+Crear una API que sirva:
+
+
+	
+Un endpoint que necesite un determinado valor el que querais y responda en xml de dos string y que se pueda llamar desde postman
+
+
+
+	
+Un endpoint que consuma ese servicio xml y lo transforme en json y concatene esos 2 string devolvienod un unico objeto string
+	para mejorar pensar como implementar peticiones asincronas con estos dos endpoint o añadiendo nuevos si fuera necesario 
+
+Todo esto tenienedo en cuenta la creacion del diseño en el desing center, la instanciacion en el api manager y subiendolo en el cloud y sin olvidar las buenas practicas de tener un properties y los flujos separados
+
+Send by Rafael Gonzalez Rodriguez
+
+https://swapi.dev/
+
+Ejercicio:
+      - Devolver listado de todos los personajes
+      - Devolver información de solo un personaje si se desea
+      - Manejo de errores
+      - La respuesta este filtrada: 10 campos máximo y uno de ellos debe ser numero total de películas del personaje.
+	  
+	  - Posibilidad de añadir personajes. Obviamente no vais a crear un personaje de verdad estará mockeado en la implementacion pero que al menos devuelva un OK la implementacion y que exista esa posibilidad en la especificación del API.
